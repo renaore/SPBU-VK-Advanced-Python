@@ -1,0 +1,38 @@
+PS C:\Users\Рената\PycharmProjects\HW1> python nl.py
+aaaa
+     1  aaaa
+bbb
+     2  bbb
+  mm
+     3    mm
+
+     4  
+  
+     5    
+k
+     6  k
+^Z
+PS C:\Users\Рената\PycharmProjects\HW1> python nl.py
+^Z
+PS C:\Users\Рената\PycharmProjects\HW1> python nl.py
+
+     1  
+^Z
+PS C:\Users\Рената\PycharmProjects\HW1> python nl.py
+   
+     1     
+^Z
+PS C:\Users\Рената\PycharmProjects\HW1> python nl.py file1.txt
+     1  first string
+     2  second one
+     3  third
+     4
+     5  fifth
+     6
+PS C:\Users\Рената\PycharmProjects\HW1> python nl.py file2.txt
+     1  
+     2      nnn
+     3    bb
+     4  aaa
+     5
+     6

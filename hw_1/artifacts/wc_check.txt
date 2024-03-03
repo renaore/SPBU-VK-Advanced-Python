@@ -1,0 +1,22 @@
+PS C:\Users\Рената\PycharmProjects\HW1> python wc.py file6.txt
+0 0 0 file6.txt
+PS C:\Users\Рената\PycharmProjects\HW1> python wc.py file7.txt
+1 0 2 file7.txt
+PS C:\Users\Рената\PycharmProjects\HW1> python wc.py file4.txt
+7 5 29 file4.txt
+PS C:\Users\Рената\PycharmProjects\HW1> python wc.py file2.txt
+6 3 26 file2.txt
+PS C:\Users\Рената\PycharmProjects\HW1> python wc.py file1.txt
+6 6 44 file1.txt
+PS C:\Users\Рената\PycharmProjects\HW1> python wc.py file1.txt file2.txt
+6 6 44 file1.txt
+6 3 26 file2.txt
+12 9 70 total
+PS C:\Users\Рената\PycharmProjects\HW1> python wc.py 
+  
+  ;;
+b b ; ;
+
+rrr
+^Z
+5 6 21

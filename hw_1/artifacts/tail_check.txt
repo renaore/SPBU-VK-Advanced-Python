@@ -1,0 +1,120 @@
+PS C:\Users\Рената\PycharmProjects\HW1> python tail.py 
+vvv
+good day
+  
+
+hmm
+wow
+
+^Z
+vvv
+good day
+
+
+hmm
+wow
+PS C:\Users\Рената\PycharmProjects\HW1> python tail.py
+1
+2
+   3
+4
+555
+6 6 6 6
+7
+   
+ 9
+
+11
+1212
+13
+14
+15 15
+ 16  16
+17
+
+19 
+20
+   
+^Z
+555
+6 6 6 6
+7
+
+ 9
+
+11
+1212
+13
+14
+15 15
+ 16  16
+17
+
+19
+20
+
+PS C:\Users\Рената\PycharmProjects\HW1> python tail.py file1.txt
+first string
+second one
+third
+
+fifth
+
+PS C:\Users\Рената\PycharmProjects\HW1> python tail.py file3.txt
+14
+15 15
+ 16  16
+17
+
+19
+20
+
+
+
+PS C:\Users\Рената\PycharmProjects\HW1> python tail.py file1.txt file3.txt
+==> file1.txt <==
+first string
+second one
+third
+
+fifth
+
+
+
+==> file3.txt <==
+14
+15 15
+ 16  16
+17
+
+19
+20
+
+
+
+PS C:\Users\Рената\PycharmProjects\HW1> python tail.py file5.txt
+ 11
+
+13
+14
+15
+16
+17
+18
+
+20
+PS C:\Users\Рената\PycharmProjects\HW1> python tail.py file0.txt file5.txt
+==> file0.txt <==
+one
+two
+==> file5.txt <==
+ 11
+
+13
+14
+15
+16
+17
+18
+
+20
