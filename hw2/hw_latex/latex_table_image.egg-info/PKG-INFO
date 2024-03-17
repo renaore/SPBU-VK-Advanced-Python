@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: latex-table-image
+Version: 0.0.1
+Summary: This is the simplest module for creating latex code for tables and images.
+Home-page:  https://upload.pypi.org/legacy/
+Author: renaore
+Author-email: lolrenchik@gmail.com
+Project-URL: GitHub, https://github.com/renaore/python_adv
+Keywords: latex
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Latex Library #
+
+## What is this? ##
+The module allows you to create latex code for tables and images
+
+
+----------
+
+
+## Developer ##
+My site: [link](https://github.com/renaore) 

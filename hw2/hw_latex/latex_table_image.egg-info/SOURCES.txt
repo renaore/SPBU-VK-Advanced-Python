@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+hw_latex/__init__.py
+hw_latex/generate.py
+hw_latex/latex.py
+latex_table_image.egg-info/PKG-INFO
+latex_table_image.egg-info/SOURCES.txt
+latex_table_image.egg-info/dependency_links.txt
+latex_table_image.egg-info/requires.txt
+latex_table_image.egg-info/top_level.txt
