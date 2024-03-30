@@ -16,7 +16,7 @@ def nl(filename):
         for line in test_file:
             line = line.rstrip('\n')
             click.echo('     ' + str(numberer) + '  ' + line)
-            numberer+=1
+            numberer += 1
 
 
 if __name__ == '__main__':
