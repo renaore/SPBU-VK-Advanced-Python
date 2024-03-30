@@ -1,0 +1,2 @@
+hash AB = 27 
+hash CD = 21
