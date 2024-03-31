@@ -1,0 +1,24 @@
+n_jobs=1 
+Thread time: 3.65197491645813
+Process time: 3.59900164604187
+n_jobs=2 
+Thread time: 3.5989749431610107
+Process time: 2.763963222503662
+n_jobs=3 
+Thread time: 3.6149818897247314
+Process time: 2.3829867839813232
+n_jobs=4 
+Thread time: 3.6310012340545654
+Process time: 2.381983757019043
+n_jobs=5 
+Thread time: 4.014974594116211
+Process time: 2.5449886322021484
+n_jobs=6 
+Thread time: 3.508988857269287
+Process time: 2.762972354888916
+n_jobs=7 
+Thread time: 3.689978837966919
+Process time: 2.904985189437866
+n_jobs=8 
+Thread time: 3.5759761333465576
+Process time: 2.9685561656951904
