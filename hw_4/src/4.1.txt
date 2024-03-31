@@ -1,0 +1,3 @@
+10-wise synchronous time: 65.3576352596283
+10-wise threading time: 65.81580781936646
+10-wise process time: 32.64881610870361
