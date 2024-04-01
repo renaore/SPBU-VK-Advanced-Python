@@ -11,7 +11,7 @@ def process_main(main1, main2):
             print(f'{time.time():.4f}s: main sent {line}', end='')
 
     def get_n_print():
-        while True:
+        while main2.poll(timeout=15):
             message = main2.recv()
             print(f'{time.time():.4f}s: {message}', end='')
 
@@ -24,27 +24,28 @@ def process_main(main1, main2):
 
 def process_a(a1, a2, queue):
     def receive():
-        while True:
+        while a1.poll(timeout=15):
             message = a1.recv()
             message = message.lower()
             queue.put(message)
 
     def sending():
-        while True:
+        while not queue.empty():
             message = queue.get()
             a2.send(message)
             print(f'{time.time():.4f}s: A sent {message}', end='')
             time.sleep(5)
 
     t1 = Thread(target=receive, args=())
-    t2 = Thread(target=sending, args=())
     t1.start()
-    t2.start()
+    while t1.is_alive():
+        t2 = Thread(target=sending, args=())
+        t2.start()
+        t2.join()
     t1.join()
-    t2.join()
 
 def process_b(b1, b2):
-    while True:
+    while b1.poll(timeout=16):
         message = b1.recv()
         enc_message = codecs.encode(message, 'rot_13')
         b2.send(enc_message)
@@ -62,8 +63,6 @@ if __name__ == '__main__':
     p_main.start()
     p_a.start()
     p_b.start()
-
-    time.sleep(60)
-    p_main.terminate()
-    p_a.terminate()
-    p_b.terminate()
+    p_main.join()
+    p_a.join()
+    p_b.join()
