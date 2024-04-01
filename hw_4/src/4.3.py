@@ -11,7 +11,7 @@ def process_main(main1, main2):
             print(f'{time.time():.4f}s: main sent {line}', end='')
 
     def get_n_print():
-        while main2.poll(timeout=15):
+        while main2.poll(timeout=17):
             message = main2.recv()
             print(f'{time.time():.4f}s: {message}', end='')
 
